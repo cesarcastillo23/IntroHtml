@@ -3,10 +3,27 @@ h1{
 }
 
 p{
-    color:white;
-    background-color: crimson;
+    color:black;
+    background-color:aquamarine 80% ;
     padding: 15px;
     border : 10px solid powderblue;
-    margin : 20px;
+    margin : 20px 10px 20px 10px;
     
+}
+a:link {
+    color:purple;
+    text-decoration: none;
+
+}
+a:visited{
+    color:aqua;
+    text-decoration: none;
+}
+a:hover{
+    color:orangered;
+    text-decoration: underline;
+}
+a:active{
+    color: #023047;
+    text-decoration: underline;
 }
