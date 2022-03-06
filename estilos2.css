@@ -1,0 +1,33 @@
+ol{
+    list-style : none;
+    counter-reset: contador;
+}
+ol li{
+    counter-increment: contador;
+}
+
+ol li::before{
+    content: " curso " counter(contador) ") ";
+    color: blue;
+}
+ol li::after{
+    content: ".";
+}
+.tarjeta{
+    border: 10px solid black;
+    background-color: aquamarine;
+    text-align: center;
+}
+#titulo_principal{
+    color :blue;
+    background-color:purple
+
+}
+.marco{
+    width: 100%;
+    height: 200px;
+    border: 1px solid black;
+}
+.centrar{
+    text-align: center;
+}
